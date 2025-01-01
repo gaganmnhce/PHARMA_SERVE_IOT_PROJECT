@@ -1,6 +1,4 @@
-Code Execution and Explanation for Smart Motion Detection System with Servo, Buzzer, and Blynk
-
-This section explains how the code works step by step for the Smart Motion Detection System that utilizes the ESP8266, a servo motor, PIR motion sensor, LCD display, buzzer, and Blynk cloud integration.
+Code Execution and Explanation for NODEMCU ESP8266 with Servo, Buzzer, and Blynk
 
 1. Setup Libraries and Components
 
