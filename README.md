@@ -1,6 +1,6 @@
  # PHARMA_SERVE_IOT_PROJECT
 
-# PHARMA SERVE: Motion Detection System with Blynk and Arduino
+# PHARMA SERVE: Medicine Pill Drop System with Blynk , NodeMCU Esp8266 and Arduino
 
 # Overview
 
