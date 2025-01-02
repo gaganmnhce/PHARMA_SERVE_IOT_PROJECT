@@ -8,11 +8,11 @@
 #include <Servo.h>                               // Library for controlling a Servo motor
 
 // Wi-Fi credentials
-const char *ssid = "NARZO Turbo";               // Wi-Fi network name
-const char *password = "whatyouwant";           // Wi-Fi network password
+const char *ssid = " ";               // Wi-Fi network name
+const char *password = " ";           // Wi-Fi network password
 
-// #define BLYNK_AUTH_TOKEN "KxNixy48QQKNr2nncXBoDbsGfyBJpBLE" // Blynk Auth Token for connecting to Blynk app ours
-#define BLYNK_AUTH_TOKEN "Ru0ig-T15fkGxt7q3woKr_PoDg8rvmtD" // Blynk authentication token (used to connect the device to Blynk app)
+// #define BLYNK_AUTH_TOKEN " " // Blynk Auth Token for connecting to Blynk app ours
+#define BLYNK_AUTH_TOKEN " " // Blynk authentication token (used to connect the device to Blynk app)
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);             // Create an LCD object with the I2C address 0x27 (16x2 LCD)
 WiFiUDP ntpUDP;                                // Create an object for UDP communication (for NTP)
