@@ -4,12 +4,12 @@
 
 # Overview
 
-PHARMA SERVE is an automation system built using the ESP8266 microcontroller to detect motion via a PIR sensor, control a servo motor, and trigger a buzzer for alerts. The system displays the time and date on an LCD screen, while also allowing real-time monitoring and control via the Blynk app. Time synchronization is handled through an NTP server, ensuring accurate time is shown on the LCD display.
+PHARMA SERVE is an automation system built using the ESP8266 microcontroller to detect motion via a IR sensor, control a servo motor, and trigger a buzzer for alerts. The system displays the time and date on an LCD screen, while also allowing real-time monitoring and control via the Blynk app. Time synchronization is handled through an NTP server, ensuring accurate time is shown on the LCD display.
 
 # Components Used
 
 ESP8266 Wi-Fi Module
-PIR Motion Sensor
+IR Motion Sensor
 Servo Motor
 Buzzer
 LCD (16x2) Display with I2C
@@ -18,7 +18,7 @@ NTP Server (for time synchronization)
 
 # Features
 
-Motion Detection: Detects motion with the PIR sensor.
+Motion Detection: Detects motion with the IR sensor.
 Servo Motor Control: Moves the servo to different angles based on motion detection.
 Buzzer Activation: Turns on the buzzer when motion is detected.
 Remote Monitoring: Control and monitor the system via the Blynk app.
@@ -27,7 +27,7 @@ App Feedback: Displays motion detection status and allows remote control of the 
 
 # Pin Connections
 
-PIR Motion Sensor: GPIO 12
+IR Motion Sensor: GPIO 12
 Servo Motor: GPIO 13
 Buzzer: GPIO 14
 LCD Display: I2C connection (Address 0x27, 16x2 size)
@@ -61,7 +61,7 @@ Start Blynk: Open the Blynk app on your smartphone, and begin controlling the sy
 # Code Explanation
 
 The ESP8266 connects to your Wi-Fi network and fetches time from an NTP server.
-Motion detection is handled by the PIR sensor, which activates the servo motor and buzzer based on the detected motion.
+Motion detection is handled by the IR sensor, which activates the servo motor and buzzer based on the detected motion.
 The LCD shows the current time and motion detection status.
 The Blynk app provides control over the servo and buzzer, while also offering real-time updates about the system.
 
